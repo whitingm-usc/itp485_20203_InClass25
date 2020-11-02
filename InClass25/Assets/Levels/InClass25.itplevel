@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "type": "itplevel",
+    "version": 2
+  },
+
+  "camera": {
+    "position": [ -200.0, 0.0, 100.0 ],
+    "rotation": [ 0.0, 0.0, 0.0, 1.0 ]
+  },
+
+  "lightingData": {
+    "lightDir": [ -0.75, 0.433, 0.5 ],
+    "lightColor": [ 1.0, 1.0, 1.0 ]
+  },
+
+  "renderObjects": [
+    {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "rotation": [ 0.0, 0.0, 1.0, 0.0 ],
+      "scale": 1.0,
+      "mesh": "Assets/Meshes/SK_Mannequin.itpmesh2",
+      "components": [
+        {
+          "type": "Character",
+          "skeleton": "Assets/Anims/SK_Mannequin.itpskel",
+          "animations": [
+            [ "idle", "Assets/Anims/ThirdPersonIdle.itpanim2" ]
+          ]
+        }
+      ]
+    }
+  ]
+}
